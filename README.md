@@ -8,33 +8,45 @@ This Weather App is a Python-based application that fetches weather information 
 ## Features
 
 - Fetches current weather information using a weather API.
-- Allows users to search for weather details by city name or ZIP code.
+- Allows users to search for weather details by city name.
 - Displays temperature, humidity, wind speed, weather description, etc.
 
 
 ## Installation
 
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/jatinnama7/weather-app.git
-    ```
-
-2. Navigate to the project directory:
-
-    ```bash
-    cd weather-app
-    ```
-
-3. Install the required dependencies:
+1. Install the required dependencies:
 
     ```bash
     pip install requests
     pip install pytz
     pip install tkinter
     pip install geopy.geocoders
+    pip install timezonefinder 
+    pip install datetime 
     ```
-    
+2. Clone the repository:
+
+    ```bash
+    git clone https://github.com/jatinnama7/Weatherapp.git
+    ```
+
+3. Navigate to the project directory:
+
+    ```bash
+    cd Weather app
+    ```
+
+
+## Usage
+
+1. Run the application:
+
+    ```bash
+    python Weatherapp.py
+    ```
+
+2. Follow the on-screen instructions to enter the city name for which you want to fetch weather details.
+
 ## API Reference
 
 #### Get all items:
